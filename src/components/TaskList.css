@@ -1,0 +1,37 @@
+/* Container for the tasks */
+.tasks-container {
+  padding: 1rem;
+  background-color: #f7fafc;
+  border-radius: 0.5rem;
+}
+
+/* Individual task wrapper */
+.task-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  background-color: #ffffff;
+  transition: background-color 0.2s ease;
+}
+
+.task-wrapper:hover {
+  background-color: #edf2f7;
+}
+
+/* Checkbox style */
+.task-checkbox {
+  margin-right: 1rem;
+}
+
+/* Task container */
+.task-container {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.task-container:hover {
+  background-color: #e2e8f0;
+}

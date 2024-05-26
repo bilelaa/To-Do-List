@@ -1,0 +1,29 @@
+/* Container for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #4a5568;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for each link */
+  .navbar-link {
+    margin-right: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  /* Last link should not have a right margin */
+  .navbar-link:last-child {
+    margin-right: 0;
+  }
+  
+  /* Hover effect for links */
+  .navbar-link:hover {
+    color: #e2e8f0;
+  }
+  
